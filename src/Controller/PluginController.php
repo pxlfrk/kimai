@@ -12,7 +12,7 @@ namespace App\Controller;
 use App\Plugin\PluginManager;
 use App\Utils\PageSetup;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Contracts\Cache\CacheInterface;
 use Symfony\Contracts\Cache\ItemInterface;
@@ -61,7 +61,7 @@ final class PluginController extends AbstractController
                 $item->expiresAfter(86400); // one day
 
                 return $response->toArray();
-            } catch (\Exception $exception) {
+            } catch (\Throwable $exception) {
                 $this->logException($exception);
                 $this->flashError('Could not download plugin information');
             }

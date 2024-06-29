@@ -2,9 +2,9 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" target-language="fr" datatype="plaintext" original="messages.en.xlf">
     <body>
-      <trans-unit id="N7mikjJ" resname="time_tracking">
-        <source>time_tracking</source>
-        <target>Suivi du temps</target>
+      <trans-unit id="N7mikjJ" resname="time_tracking" xml:space="preserve">
+        <source>Time Tracking</source>
+        <target state="translated">Suivi du temps</target>
       </trans-unit>
       <trans-unit id="inmIkP6" resname="yes">
         <source>yes</source>
@@ -1083,9 +1083,9 @@
         <source>stats.workingTimeFinancialYear</source>
         <target>Année fiscale</target>
       </trans-unit>
-      <trans-unit id="_cY.wHP" resname="resetting.check_email">
-        <source>resetting.check_email</source>
-        <target>Un courriel a été envoyé. Il contient un lien sur lequel vous devez cliquer pour réinitialiser votre mot de passe. Remarque : vous ne pouvez demander un nouveau mot de passe qu'une seule fois toutes les %tokenLifetime% heures. Si vous ne recevez pas de courriel, vérifiez votre dossier d'indésirables ou réessayez.</target>
+      <trans-unit id="_cY.wHP" resname="resetting.check_email" xml:space="preserve">
+        <source>An email has been sent with a link to reset your password. Note: You can only request a new password once every %tokenLifetime% hours. If you don't receive the email, please check your spam folder or try again.</source>
+        <target state="needs-translation">Un courriel a été envoyé. Il contient un lien sur lequel vous devez cliquer pour réinitialiser votre mot de passe. Remarque : vous ne pouvez demander un nouveau mot de passe qu'une seule fois toutes les %tokenLifetime% heures. Si vous ne recevez pas de courriel, vérifiez votre dossier d'indésirables ou réessayez.</target>
       </trans-unit>
       <trans-unit id=".ndupSK" resname="registration.check_email">
         <source>registration.check_email</source>
@@ -1363,17 +1363,13 @@
         <source>skin.dark</source>
         <target state="translated">Foncé</target>
       </trans-unit>
-      <trans-unit id="JSBReoa" resname="api_password.intro">
+      <trans-unit id="JSBReoa" resname="api_password.intro" xml:space="preserve">
         <source>api_password.intro</source>
-        <target state="translated">Le mot de passe de l’API est utilisé pour la communication entre Kimai et vos applications</target>
+        <target state="needs-translation">Le mot de passe de l’API est utilisé pour la communication entre Kimai et vos applications</target>
       </trans-unit>
       <trans-unit id="QT8.BCN" resname="api_password.missing_title">
         <source>api_password.missing_title</source>
         <target state="translated">L'API ne peut pas être utilisée</target>
-      </trans-unit>
-      <trans-unit id="fxFzCHd" resname="api_password.missing_description">
-        <source>api_password.missing_description</source>
-        <target state="translated">Vous n'avez pas encore saisi de mot de passe pour l'API. Pour des raisons de sécurité, vous ne pouvez pas utiliser l'API tant que vous n'avez pas enregistré un mot de passe.</target>
       </trans-unit>
       <trans-unit id="wYcx0So" resname="search.no_results">
         <source>search.no_results</source>
@@ -1503,9 +1499,9 @@
         <source>evaluation</source>
         <target state="translated">Évaluation</target>
       </trans-unit>
-      <trans-unit id="1btzNDa" resname="work_times_should">
-        <source>work_times_should</source>
-        <target state="translated">Heures cibles</target>
+      <trans-unit id="1btzNDa" resname="work_times_should" xml:space="preserve">
+        <source>Expected number of hours</source>
+        <target state="needs-translation">Heures cibles</target>
       </trans-unit>
       <trans-unit id="s9NPI3v" resname="work_times_should.none_configured">
         <source>work_times_should.none_configured</source>
@@ -1534,10 +1530,6 @@
       <trans-unit id="mS4SSmt" resname="work_times" xml:space="preserve">
         <source>Working times</source>
         <target state="translated">Heures de travail</target>
-      </trans-unit>
-      <trans-unit id="PE2iiaW" resname="work_times_should.help">
-        <source>work_times_should.help</source>
-        <target state="translated">Les valeurs configurées ici sont utilisées pour calculer le compte horaire.</target>
       </trans-unit>
       <trans-unit id="YPO294a" resname="absence_other.intro" xml:space="preserve">
         <source>absence_other.intro</source>
